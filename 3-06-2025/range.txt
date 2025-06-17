@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        printrange(1,5);
+    }
+    public static void printrange(int start,int end){
+        if(start>end){
+            return;
+        }
+         printrange(start+1,end);
+        System.out.println(start);
+       
+    }
+}
